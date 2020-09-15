@@ -1,0 +1,49 @@
+body {
+    background-color: aquamarine;
+}
+
+.white-keys kbd {
+    z-index: 1;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: darkcyan;
+    display: inline-block;
+    background-color: white;
+    border: outset 5px rgba(30, 186, 170, 0.9);
+    width: 25px;
+    padding-top: 250px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: -3px;
+}
+
+.black-keys kbd {
+    z-index: 9;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: darkcyan;
+    display: inline-block;
+    background-color: black;
+    border: outset 5px rgba(30, 186, 170, 0.9);
+    width: 25px;
+    padding: 55px 10px 70px;
+    position: relative;
+    bottom: 276px;
+}
+
+.left {
+    margin-left: 3px;
+    left: 22.5px;
+}
+
+.right {
+    margin-right: 3px;
+    right: -65.5px;
+}
+
+.container {
+    margin: 20% auto;
+    width: max-content;
+}
